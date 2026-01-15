@@ -35,6 +35,25 @@ const services = [
     }
 ];
 
+const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+        opacity: 1,
+        transition: {
+            staggerChildren: 0.1
+        }
+    }
+};
+
+const cardVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+        opacity: 1,
+        y: 0,
+        transition: { duration: 0.6, ease: "easeOut" }
+    }
+};
+
 const Services = () => {
     return (
         <section id="services" className="py-20 bg-white">
@@ -45,17 +64,21 @@ const Services = () => {
                     <p className="text-slate-600">Tailored solutions to meet the unique financial needs of individuals and businesses.</p>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <motion.div
+                    variants={containerVariants}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.1 }}
+                    className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+                >
                     {services.map((service, index) => (
                         <motion.div
                             key={index}
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: index * 0.1 }}
+                            variants={cardVariants}
+                            whileHover={{ y: -10, transition: { duration: 0.3 } }}
                             className="p-8 rounded-2xl bg-slate-50 hover:bg-white hover:shadow-xl border border-transparent hover:border-slate-100 transition-all duration-300 group"
                         >
-                            <div className="w-14 h-14 bg-blue-100 text-blue-900 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-900 group-hover:text-white transition-colors">
+                            <div className="w-14 h-14 bg-blue-100 text-blue-900 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-900 group-hover:text-white transition-colors duration-300">
                                 {service.icon}
                             </div>
                             <h3 className="text-xl font-bold text-slate-900 mb-3">{service.title}</h3>
@@ -64,7 +87,7 @@ const Services = () => {
                             </p>
                         </motion.div>
                     ))}
-                </div>
+                </motion.div>
             </div>
         </section>
     );
