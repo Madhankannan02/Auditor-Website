@@ -16,7 +16,7 @@ const Footer = () => {
                 >
                     <div className="col-span-1 md:col-span-1">
                         <a href="#" className="inline-block mb-6">
-                            <img src={logo} alt="Jeeva Auditor" className="h-12 w-auto object-contain bg-white rounded-lg p-1" />
+                            <img src={logo} alt="Kadasari Auditing & Finance Groups" className="h-12 w-auto object-contain bg-white rounded-lg p-1" />
                         </a>
                         <p className="text-slate-400 mb-6">
                             Empowering businesses with precise financial auditing and strategic advisory services.
@@ -78,7 +78,7 @@ const Footer = () => {
                     transition={{ delay: 0.2, duration: 0.6 }}
                     className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-slate-500 text-sm"
                 >
-                    <p>&copy; {new Date().getFullYear()} Jeeva Auditor. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Kadasari Auditing & Finance Groups. All rights reserved.</p>
                     <div className="flex gap-6 mt-4 md:mt-0">
                         <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
                         <a href="#" className="hover:text-white transition-colors">Cookie Policy</a>

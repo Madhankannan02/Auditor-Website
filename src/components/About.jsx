@@ -29,7 +29,7 @@ const About = () => {
                     <span className="text-blue-400 font-semibold tracking-wide uppercase text-sm">About Us</span>
                     <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">Committed to Your Financial Success</h2>
                     <p className="text-slate-300 mb-6 leading-relaxed">
-                        With over a decade of experience, 'Jeeva Auditor' has been a beacon of trust and reliability in the financial sector. We believe in building long-term relationships with our clients based on integrity, transparency, and results.
+                        With over a decade of experience, 'Kadasari Auditing & Finance Groups' has been a beacon of trust and reliability in the financial sector. We believe in building long-term relationships with our clients based on integrity, transparency, and results.
                     </p>
                     <p className="text-slate-300 mb-8 leading-relaxed">
                         Our team of certified professionals is dedicated to navigating the complexities of modern finance so you can focus on what matters most—growing your business.

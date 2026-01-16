@@ -59,7 +59,7 @@ const Navbar = () => {
             <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
                 {/* Logo */}
                 <a href="#" className="flex items-center gap-2">
-                    <img src={logo} alt="Jeeva Auditor" className="h-12 w-auto object-contain" />
+                    <img src={logo} alt="Kadasari Auditing & Finance Groups" className="h-12 w-auto object-contain" />
                 </a>
 
                 {/* Desktop Nav */}
