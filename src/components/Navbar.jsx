@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Calculator } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+import logo from '../assets/Primary.png';
+
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -56,11 +58,8 @@ const Navbar = () => {
         >
             <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
                 {/* Logo */}
-                <a href="#" className="flex items-center gap-2 text-2xl font-bold text-slate-900 group">
-                    <div className="bg-blue-900 p-2 rounded-lg text-white transition-transform group-hover:scale-110 duration-300">
-                        <Calculator size={24} />
-                    </div>
-                    <span>Jeeva<span className="text-blue-900">.Auditor</span></span>
+                <a href="#" className="flex items-center gap-2">
+                    <img src={logo} alt="Jeeva Auditor" className="h-12 w-auto object-contain" />
                 </a>
 
                 {/* Desktop Nav */}

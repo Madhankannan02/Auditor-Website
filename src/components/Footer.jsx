@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Calculator, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import logo from '../assets/Primary.png';
 
 const Footer = () => {
     return (
@@ -14,11 +15,8 @@ const Footer = () => {
                     className="grid md:grid-cols-4 gap-12 mb-16"
                 >
                     <div className="col-span-1 md:col-span-1">
-                        <a href="#" className="flex items-center gap-2 text-2xl font-bold mb-6">
-                            <div className="bg-white p-2 rounded-lg text-blue-900">
-                                <Calculator size={24} />
-                            </div>
-                            <span>Jeeva<span className="text-blue-400">.Auditor</span></span>
+                        <a href="#" className="inline-block mb-6">
+                            <img src={logo} alt="Jeeva Auditor" className="h-12 w-auto object-contain bg-white rounded-lg p-1" />
                         </a>
                         <p className="text-slate-400 mb-6">
                             Empowering businesses with precise financial auditing and strategic advisory services.
