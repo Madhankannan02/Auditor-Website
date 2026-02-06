@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Calculator } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-import logo from '../assets/Primary.png';
+import logo from '../assets/Icon.png';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -59,7 +59,8 @@ const Navbar = () => {
             <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
                 {/* Logo */}
                 <a href="#" className="flex items-center gap-2">
-                    <img src={logo} alt="Kadasari Auditing & Finance Groups" className="h-12 w-auto object-contain" />
+                    <img src={logo} alt="Grow High Auditing" className="h-12 w-auto object-contain" />
+                    <span className="text-xl font-bold text-slate-900 hidden sm:block">Grow High Auditing</span>
                 </a>
 
                 {/* Desktop Nav */}

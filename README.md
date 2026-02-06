@@ -1,8 +1,9 @@
-# Jeeva Auditor Website
 
-A modern, responsive portfolio website for Jeeva Auditor, built with React, Vite, and Tailwind CSS. The site features smooth animations powered by Framer Motion and a clean, professional design.
+# Grow High Auditing Website
 
-![Jeeva Auditor Website Preview](./src/assets/website-preview.png)
+A modern, responsive portfolio website for Grow High Auditing, built with React, Vite, and Tailwind CSS. The site features smooth animations powered by Framer Motion and a clean, professional design.
+
+![Grow High Auditing Website Preview](./src/assets/website-preview.png)
 
 ## 🚀 Features
 
@@ -31,7 +32,7 @@ A modern, responsive portfolio website for Jeeva Auditor, built with React, Vite
 
     ```bash
     git clone <repository-url>
-    cd jeeva-auditor-website
+    cd grow-high-auditing-website
     ```
 
 2.  **Install dependencies:**

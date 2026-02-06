@@ -22,7 +22,7 @@ const Contact = () => {
                         <div className="space-y-6">
                             {[
                                 { icon: Phone, title: "Call Us", text: "+1 (555) 123-4567" },
-                                { icon: Mail, title: "Email Us", text: "contact@jeeva-auditor.com" },
+                                { icon: Mail, title: "Email Us", text: "contact@growhighauditing.com" },
                                 { icon: MapPin, title: "Visit Us", text: "123 Financial District, Suite 400,\nBusiness City, BC 90210" }
                             ].map((item, index) => (
                                 <motion.div

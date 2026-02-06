@@ -22,7 +22,7 @@ const Testimonials = () => {
                     {[
                         { name: "Sarah Johnson", role: "CEO, TechStart", quote: "Their strategic advice was crucial during our startup phase. Highly recommended!" },
                         { name: "Michael Chen", role: "Director, Chen Enterprises", quote: "Professional, timely, and incredibly knowledgeable. They make tax season stress-free." },
-                        { name: "Priya Sharma", role: "Founder, DesignStudio", quote: "Kadasari Auditing & Finance Groups goes beyond just numbers. They truly understand business growth." }
+                        { name: "Priya Sharma", role: "Founder, DesignStudio", quote: "Grow High Auditing goes beyond just numbers. They truly understand business growth." }
                     ].map((t, i) => (
                         <motion.div
                             key={i}
