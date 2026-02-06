@@ -2,6 +2,8 @@
 
 A modern, responsive portfolio website for Jeeva Auditor, built with React, Vite, and Tailwind CSS. The site features smooth animations powered by Framer Motion and a clean, professional design.
 
+![Jeeva Auditor Website Preview](./src/assets/website-preview.png)
+
 ## 🚀 Features
 
 - **Modern UI/UX**: Clean and professional design tailored for an auditing firm.
